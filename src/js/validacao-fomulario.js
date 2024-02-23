@@ -7,7 +7,7 @@ botaoEnviar.addEventListener('click', ()=>{
 })
 
 function verificarPreenchimento() {
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < camposObrigatorios.length; i++) {
         console.log(camposObrigatorios[i])
         textoCampoObrigatorio[i].style.opacity = 0
 
@@ -23,4 +23,3 @@ function verificarPreenchimento() {
         }
     }
 }
-
